@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/budeasy/static/css/main.c6e2f5a4.css",
-    "main.js": "/budeasy/static/js/main.985fe4f7.js",
+    "main.js": "/budeasy/static/js/main.4eeef032.js",
     "static/media/about-background-image.png": "/budeasy/static/media/about-background-image.f49ded6e9e41ddc0e190.png",
     "static/media/hero-image.png": "/budeasy/static/media/hero-image.d562e52a8004beb6f51b.png",
     "index.html": "/budeasy/index.html",
@@ -11,10 +11,10 @@
     "static/media/work-wave.svg": "/budeasy/static/media/work-wave.2bac81b72364cb1888c83e3d814059e4.svg",
     "static/media/about-wave.svg": "/budeasy/static/media/about-wave.42546b0783dd4d3f29873e59f4c6d352.svg",
     "main.c6e2f5a4.css.map": "/budeasy/static/css/main.c6e2f5a4.css.map",
-    "main.985fe4f7.js.map": "/budeasy/static/js/main.985fe4f7.js.map"
+    "main.4eeef032.js.map": "/budeasy/static/js/main.4eeef032.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e2f5a4.css",
-    "static/js/main.985fe4f7.js"
+    "static/js/main.4eeef032.js"
   ]
 }
