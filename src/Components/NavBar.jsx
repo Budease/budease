@@ -40,9 +40,9 @@ function NavBar() {
       <img src={Logo} alt="" />
     </div>
     <div className="navbar-links-container">
-      <a href="/#home">Home</a>
-      <a href="/#about">About</a>
-      <a href="/#contact">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </div>
     <div className="navbar-menu-container">
       <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
