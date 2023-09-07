@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import ContactBackground from "../Assets/contact-background.svg";
-import axios from 'axios';
 
 const Contact = () => {
 const [email, setEmail] = useState("");
@@ -12,11 +11,16 @@ const handleChange = (event) => {
 
  const handleSubmit = async (event) => {
     event.preventDefault();
-    const baseUrl = "https://script.google.com/macros/s/AKfycbwXF7ljcdP2FulBwI3f_dyEHCOrWChJqSmeyLlDj7T8UPEhTeQmv9qJJRJnj-Vy-5mn5g/exec"
+    var baseUrl = "https://script.google.com/macros/s/AKfycbwqsrz55Bu5p_WXNk8nUErrmCkP8blMiZkccynrk_pqxNcDlXxGDrFVczOlqdJxKLhW8w/exec"
     try{
-    console.log({"email":email})
-    const response = await axios.post(baseUrl,{"email":email})
-    console.log(response)
+    fetch(baseUrl, {
+      redirect: "follow",
+      method: "POST",
+      body: JSON.stringify(email),
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+    })
   }
     catch(error){
       console.log(`The error is: ${error}`);
