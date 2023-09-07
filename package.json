@@ -1,5 +1,6 @@
 { 
   "name": "budease",
+  "homepage": "https://budease.github.io/budease",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
