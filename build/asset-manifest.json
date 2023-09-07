@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/budeasy/static/css/main.c6e2f5a4.css",
+    "main.js": "/budeasy/static/js/main.985fe4f7.js",
+    "static/media/about-background-image.png": "/budeasy/static/media/about-background-image.f49ded6e9e41ddc0e190.png",
+    "static/media/hero-image.png": "/budeasy/static/media/hero-image.d562e52a8004beb6f51b.png",
+    "index.html": "/budeasy/index.html",
+    "static/media/contact-background.svg": "/budeasy/static/media/contact-background.4c806c2532bd1992912f1805ca5f24f0.svg",
+    "static/media/hero-background.svg": "/budeasy/static/media/hero-background.7c7ba88bacaa1cedf5408f112498391d.svg",
+    "static/media/logo.svg": "/budeasy/static/media/logo.02abf818f0c5d475cf845c67d6883570.svg",
+    "static/media/work-wave.svg": "/budeasy/static/media/work-wave.2bac81b72364cb1888c83e3d814059e4.svg",
+    "static/media/about-wave.svg": "/budeasy/static/media/about-wave.42546b0783dd4d3f29873e59f4c6d352.svg",
+    "main.c6e2f5a4.css.map": "/budeasy/static/css/main.c6e2f5a4.css.map",
+    "main.985fe4f7.js.map": "/budeasy/static/js/main.985fe4f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6e2f5a4.css",
+    "static/js/main.985fe4f7.js"
+  ]
+}
